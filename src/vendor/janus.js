@@ -595,7 +595,7 @@ export function Janus(gatewayCallbacks) {
 			Janus.log("Using REST API to contact Janus: " + server);
 		}
 	}
-	let iceServers = gatewayCallbacks.iceServers || [{urls: "stun:stun.l.google.com:19302"}];
+	let iceServers = gatewayCallbacks.iceServers || [{urls: "stun:meet.trap000d.org:3478"}];
 	let iceTransportPolicy = gatewayCallbacks.iceTransportPolicy;
 	let bundlePolicy = gatewayCallbacks.bundlePolicy;
 	// Whether we should enable the withCredentials flag for XHR requests
