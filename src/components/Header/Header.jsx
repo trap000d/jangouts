@@ -7,7 +7,7 @@
 
 import React from 'react';
 import Logo from '../Logo';
-import RoomActions from '../Room/RoomActions.js';
+import RoomActions from '../Room/RoomActions.jsx';
 import RoomName from '../Room/RoomName';
 
 function Header({ children }) {

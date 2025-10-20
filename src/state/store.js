@@ -5,8 +5,8 @@
  * of the MIT license.  See the LICENSE.txt file for details.
  */
 
-import { createStore, compose, applyMiddleware } from 'redux';
-import thunk from 'redux-thunk';
+import { createStore, compose, applyMiddleware } from '@reduxjs/toolkit';
+import { thunk } from 'redux-thunk';
 import reducers from './ducks';
 
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
